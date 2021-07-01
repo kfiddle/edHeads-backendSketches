@@ -45,4 +45,9 @@ public class DatabaseRestController {
 //        }
     }
 
+    @RequestMapping("/fetch-all-media")
+    public Collection<MediaManagement> getAllMediaInDatabase() {
+        return (Collection<MediaManagement>) mediaManagementRepo.findAll();
+    }
+
 }
