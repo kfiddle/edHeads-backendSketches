@@ -1,13 +1,13 @@
 package com.example.demo.controllers;
 
+import com.example.demo.models.MediaManagement;
 import com.example.demo.models.USAState;
 import com.example.demo.repositories.MediaManagementRepository;
 import com.example.demo.repositories.UserRepository;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
 
@@ -32,4 +32,17 @@ public class DatabaseRestController {
         }
         return listOfStates;
     }
+
+    @PostMapping("add-media")
+    public void addNewMediaToDatabase(@RequestBody MediaManagement mediaToAdd) throws IOException {
+        MediaManagement newMedia = new MediaManagement(mediaToAdd.getAdTagUrl(), mediaToAdd.getPageTitle(),
+                mediaToAdd.getColumnPositionA(), mediaToAdd.getColumnPositionB(), mediaToAdd.getColumnPositionC());
+
+        mediaManagementRepo.save(newMedia);
+
+//        if (!mediaManagementRepo.existsByAdTagUrl() && !mediaManagementRepo.existsByPageTitle()) {
+//            mediaManagementRepo.save(newMedia);
+//        }
+    }
+
 }

@@ -5,6 +5,8 @@ let tokenInput = document.getElementById('tokenInput').value;
 console.log(tokenInput);
 
 
+
+
 let testMeta = document.querySelector('meta[name="_csrf"]').content
 
 console.log(testMeta);
