@@ -9,6 +9,7 @@ public class NavController {
 
     @RequestMapping("/user-entry-form")
     public String displayUserEntryFormPage() {
+
         return "userEntry";
     }
 

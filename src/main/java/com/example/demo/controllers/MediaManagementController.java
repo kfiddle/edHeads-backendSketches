@@ -13,7 +13,7 @@ public class MediaManagementController {
     MediaManagementRepository mediaManagementRepository;
 
     @RequestMapping("/media-management")
-    public String displayUserEntryFormPage() {
+    public String displayMediaEntryFormPage() {
         return "mediaManagementView";
     }
 
