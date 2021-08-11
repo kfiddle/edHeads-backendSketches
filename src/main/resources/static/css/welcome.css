@@ -1,0 +1,34 @@
+#welcome{
+    background: #ccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentContainer{
+    background: #666;
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.textBoxLeft{
+    background: #fff;
+    border: 4px solid #d2d063;
+    border-radius: 4rem;
+    padding: 2rem;
+    position: relative;
+    text-align: left;
+    width: 80%;
+}
+
+.welcomeCharacter{
+    position: relative;
+    z-index: 1;
+}
