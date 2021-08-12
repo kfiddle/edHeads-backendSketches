@@ -13,4 +13,10 @@ public class NavController {
         return "userEntry";
     }
 
+    @RequestMapping("/welcome")
+    public String displayWelcomePage() {
+
+        return "welcome";
+    }
+
 }
