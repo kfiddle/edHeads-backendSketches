@@ -1,5 +1,7 @@
+/*BEGIN ABOUT US SECTION*/
+
 #welcome{
-    background: #ccc;
+    /*background: #ccc;*/
     background-repeat: no-repeat;
     min-width: 100vw;
     background-image: url("/assets/welcomeBackground.jpg");
@@ -12,7 +14,7 @@
 }
 
 .contentContainer{
-    background: #eee;
+    /*background: #eee;*/
     position: absolute;
     bottom: 0;
     width: 80%;
@@ -31,7 +33,38 @@
     padding: 2rem 0rem;
 }
 
-/*.robot{*/
-/*    width: 350px;*/
-/*    height: 650px;*/
-/*}*/
+/*END WELCOME SECTION*/
+
+/*BEGIN AD SECTION*/
+
+#adPanel{
+    background-color: #ffffff;
+    border-top: solid 7px #666666;
+    border-bottom: solid 7px #666666;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    min-width: 100vw;
+
+}
+
+.contentContainerAd{
+
+width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+
+    margin: 2rem 0;
+}
+
+.adLeft{
+width: 300px;
+height: 250px;
+}
+
+.adRight{
+width: 300px;
+height: 250px;
+}
+
+/*END AD SECTION*/
