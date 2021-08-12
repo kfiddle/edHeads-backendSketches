@@ -1,32 +1,30 @@
 /*BEGIN ABOUT US SECTION*/
 
 #aboutUs{
-    /*background: #ccc;*/
-    background-repeat: no-repeat;
-    min-width: 100vw;
-    background-image: url("/assets/welcomeBackground.jpg");
-    background-size: cover;
-    height: 700px;
-    position: relative;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    background-image: url("/assets/welcomeBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    min-width: 100vw;
+    position: relative;
 }
 
 .contentContainerTextLeft{
-    /*background: #eee;*/
-    position: absolute;
     bottom: 0;
-    width: 80%;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    position: absolute;
+    width: 80%;
 }
 
 .textBoxLeft{
     background: #fff;
-    width: 80%;
     margin: auto;
     padding: 3rem;
+    width: 80%;
 }
 
 .aboutUsCharacter{
@@ -39,32 +37,29 @@
 
 .adPanel{
     background-color: #ffffff;
-    border-top: solid 7px #474747;
     border-bottom: solid 7px #474747;
-    position: relative;
+    border-top: solid 7px #474747;
     display: flex;
     justify-content: center;
     min-width: 100vw;
-
+    position: relative;
 }
 
 .contentContainerAd{
-
-width: 80%;
     display: flex;
     justify-content: space-evenly;
-
     margin: 2rem 0;
+    width: 80%;
 }
 
 .adLeft{
-width: 300px;
-height: 250px;
+    height: 250px;
+    width: 300px;
 }
 
 .adRight{
-width: 300px;
-height: 250px;
+    height: 250px;
+    width: 300px;
 }
 
 /*END AD SECTION*/
@@ -72,42 +67,30 @@ height: 250px;
 /*BEGIN SIGN UP SECTION*/
 
 #signUp{
-    /*background: #ccc;*/
-    background-repeat: no-repeat;
-    min-width: 100vw;
+    align-items: center;
     background-image: url("/assets/signUpBackground.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
-    position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
+    min-width: 100vw;
+    height: 700px;
+    position: relative;
 }
 
 .contentContainerTextRight{
-    /*background: #eee;*/
-    position: absolute;
     bottom: 0;
-    width: 80%;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    position: absolute;
+    width: 80%;
 }
 
 .textBoxRight{
     background: #fff;
-    width: 80%;
     margin: auto;
     padding: 3rem;
-}
-
-/*.signUpCharacter{*/
-/*    padding: 2rem 0rem;*/
-/*}*/
-
-.signUpImg{
-height: 603px;
-    width: 675px;
-
+    width: 80%;
 }
 
 /*END SIGN UP SECTION*/
@@ -115,33 +98,16 @@ height: 603px;
 /*BEGIN DONATE SECTION*/
 
 #donate{
-    /*background: #ccc;*/
-    background-repeat: no-repeat;
-    min-width: 100vw;
     background-image: url("/assets/donateBackground.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
-    position: relative;
     display: flex;
+    height: 700px;
+    min-width: 100vw;
     justify-content: center;
+    position: relative;
     align-items: center;
 }
-
-/*.contentContainerTextLeft{*/
-/*    !*background: #eee;*!*/
-/*    position: absolute;*/
-/*    bottom: 0;*/
-/*    width: 80%;*/
-/*    display: grid;*/
-/*    grid-template-columns: 2fr 1fr;*/
-/*}*/
-
-/*.textBoxLeft{*/
-/*    background: #fff;*/
-/*    width: 80%;*/
-/*    margin: auto;*/
-/*    padding: 3rem;*/
-/*}*/
 
 .donateCharacter{
     padding: 2rem 0rem;

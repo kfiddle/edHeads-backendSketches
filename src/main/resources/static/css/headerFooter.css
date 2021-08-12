@@ -1,23 +1,20 @@
 #header {
     background-color: #2cccd3;
-    width: 100vw;
-    height: 200px;
-    border-bottom: .5rem solid #cbd543;
     background-image: url("/assets/headerClouds.png");
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: .5rem solid #cbd543;
+    height: 200px;
+    width: 100vw;
 }
 
 #footer {
     background-color: #474747;
     width: 100vw;
-    /*height: 200px;*/
 }
 
 .footerText{
-    /* background: #fff; */
-    width: 40%;
-    /* margin: auto; */
-    padding: 3rem;
     color: #fff;
+    padding: 3rem;
+    width: 40%;
 }
