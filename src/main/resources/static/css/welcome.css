@@ -1,6 +1,6 @@
 /*BEGIN ABOUT US SECTION*/
 
-#welcome{
+#aboutUs{
     /*background: #ccc;*/
     background-repeat: no-repeat;
     min-width: 100vw;
@@ -13,7 +13,7 @@
     align-items: center;
 }
 
-.contentContainer{
+.contentContainerTextLeft{
     /*background: #eee;*/
     position: absolute;
     bottom: 0;
@@ -29,18 +29,18 @@
     padding: 3rem;
 }
 
-.welcomeCharacterRight{
+.aboutUsCharacter{
     padding: 2rem 0rem;
 }
 
-/*END WELCOME SECTION*/
+/*END ABOUT US SECTION*/
 
 /*BEGIN AD SECTION*/
 
-#adPanel{
+.adPanel{
     background-color: #ffffff;
-    border-top: solid 7px #666666;
-    border-bottom: solid 7px #666666;
+    border-top: solid 7px #474747;
+    border-bottom: solid 7px #474747;
     position: relative;
     display: flex;
     justify-content: center;
@@ -68,3 +68,83 @@ height: 250px;
 }
 
 /*END AD SECTION*/
+
+/*BEGIN SIGN UP SECTION*/
+
+#signUp{
+    /*background: #ccc;*/
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    background-image: url("/assets/signUpBackground.jpg");
+    background-size: cover;
+    height: 700px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentContainerTextRight{
+    /*background: #eee;*/
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.textBoxRight{
+    background: #fff;
+    width: 80%;
+    margin: auto;
+    padding: 3rem;
+}
+
+/*.signUpCharacter{*/
+/*    padding: 2rem 0rem;*/
+/*}*/
+
+.signUpImg{
+height: 603px;
+    width: 675px;
+
+}
+
+/*END SIGN UP SECTION*/
+
+/*BEGIN DONATE SECTION*/
+
+#donate{
+    /*background: #ccc;*/
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    background-image: url("/assets/donateBackground.jpg");
+    background-size: cover;
+    height: 700px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.contentContainerTextLeft{*/
+/*    !*background: #eee;*!*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    width: 80%;*/
+/*    display: grid;*/
+/*    grid-template-columns: 2fr 1fr;*/
+/*}*/
+
+/*.textBoxLeft{*/
+/*    background: #fff;*/
+/*    width: 80%;*/
+/*    margin: auto;*/
+/*    padding: 3rem;*/
+/*}*/
+
+.donateCharacter{
+    padding: 2rem 0rem;
+}
+
+/*END DONATE SECTION*/

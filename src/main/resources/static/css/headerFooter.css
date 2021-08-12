@@ -1,4 +1,4 @@
-#header{
+#header {
     background-color: #2cccd3;
     width: 100vw;
     height: 200px;
@@ -6,18 +6,18 @@
     background-image: url("/assets/headerClouds.png");
     background-repeat: no-repeat;
     background-size: cover;
-
-    /*background-repeat: no-repeat;*/
-    /*min-width: 100vw;*/
-    /*background-image: url("/assets/welcomeBackground.jpg");*/
-    /*background-size: cover;*/
-    /*height: 700px;*/
-    /*position: relative;*/
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
 }
 
-/*.clouds{*/
-/*    height: 18.75rem;*/
-/*}*/
+#footer {
+    background-color: #474747;
+    width: 100vw;
+    /*height: 200px;*/
+}
+
+.footerText{
+    /* background: #fff; */
+    width: 40%;
+    /* margin: auto; */
+    padding: 3rem;
+    color: #fff;
+}
