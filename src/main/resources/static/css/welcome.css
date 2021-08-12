@@ -1,3 +1,21 @@
+/*BEGIN WELCOME GLOBAL STYLING*/
+h2{
+    color: #d1a10e;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h3{
+    color: #cbd543;
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 0 0 .75rem 0;
+}
+
+/*END WELCOME GLOBAL STYLING*/
+
+
 /*BEGIN ABOUT US SECTION*/
 
 #aboutUs{
@@ -24,6 +42,8 @@
     background: #fff;
     border: .5rem solid #cbd543;
     border-radius: 1.5rem;
+    line-height: 1.75rem;
+    letter-spacing: .0125rem;
     margin: 8rem auto auto;
     padding: 3rem;
     position: relative;
@@ -116,6 +136,8 @@
     background: #fff;
     border: .5rem solid #cbd543;
     border-radius: 1.5rem;
+    line-height: 1.75rem;
+    letter-spacing: .0125rem;
     margin: 8rem auto auto;
     padding: 3rem;;
     position: relative;
