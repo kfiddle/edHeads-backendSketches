@@ -1,7 +1,9 @@
 #welcome{
     background: #ccc;
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    background-image: url("/assets/welcomeBackground.jpg");
+    background-size: cover;
     height: 700px;
     position: relative;
     display: flex;

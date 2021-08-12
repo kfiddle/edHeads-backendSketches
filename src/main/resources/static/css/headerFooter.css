@@ -1,9 +1,11 @@
 #header{
     background-color: #2cccd3;
     width: 100vw;
-    background-image: url("/assets/headerClouds.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 13rem;
+    border-bottom: .5rem solid #cbd543;
+    /*background-image: url("/assets/headerClouds.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
 }
 
 .clouds{
