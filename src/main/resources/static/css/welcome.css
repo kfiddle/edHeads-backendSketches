@@ -26,14 +26,10 @@
 }
 
 .welcomeCharacterRight{
-/*    background: #eee;*/
-/*    height: 650px;*/
-/*    width: 350px;*/
-/*!*position: relative;*!*/
-/*!*z-index: 1;*!*/
+    padding: 2rem 0rem;
 }
 
-.robot{
-    width: 350px;
-    height: 650px;
-}
+/*.robot{*/
+/*    width: 350px;*/
+/*    height: 650px;*/
+/*}*/
