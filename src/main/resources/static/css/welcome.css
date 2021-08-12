@@ -22,9 +22,35 @@
 
 .textBoxLeft{
     background: #fff;
+    border: .5rem solid #cbd543;
+    border-radius: 1.5rem;
     margin: auto;
     padding: 3rem;
-    width: 80%;
+    position: relative;
+    width: 95%;
+}
+
+.textBoxLeft:before {
+    border-bottom: 59px solid transparent;
+    border-left: 77px solid #d2d063;
+    border-right: 3px solid transparent;
+    border-top: 52px solid transparent;
+    content: "";
+    position: absolute;
+    right: -5.5rem;
+    top: 2.125rem;
+}
+
+.textBoxLeft:after {
+    border-bottom: 59px solid transparent;
+    border-left: 77px solid #fff;
+    border-right: 3px solid transparent;
+    border-top: 52px solid transparent;
+    content: "";
+    height: 0px;
+    position: absolute;
+    right: -4.75rem;
+    top: 2.125rem;
 }
 
 .aboutUsCharacter{
@@ -88,9 +114,33 @@
 
 .textBoxRight{
     background: #fff;
+    border: .5rem solid #cbd543;
+    border-radius: 1.5rem;
     margin: auto;
     padding: 3rem;
-    width: 80%;
+    width: 95%;
+}
+
+.textBoxRight:before {
+    border-bottom: 59px solid transparent;
+    border-left: 37px solid transparent;
+    border-right: 79px solid #cbd543;
+    border-top: 52px solid transparent;
+    content: "";
+    position: absolute;
+    left: 14rem;
+    top: 11rem;
+}
+
+.textBoxRight:after {
+    border-bottom: 59px solid transparent;
+    border-left: 37px solid transparent;
+    border-right: 79px solid #fff;
+    border-top: 52px solid transparent;
+    content: "";
+    left: 14.75rem;
+    top: 11rem;
+    position: absolute;
 }
 
 /*END SIGN UP SECTION*/
