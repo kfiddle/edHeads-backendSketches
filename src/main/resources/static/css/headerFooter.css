@@ -19,3 +19,20 @@
     padding: 3rem;
     width: 40%;
 }
+
+.footerButton{
+    background-color: #cbd543;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1rem;
+    font-weight: 900;
+    letter-spacing: .05rem;
+    margin-top: 1.25rem;
+    padding: 1rem 1.5rem;
+    text-transform: capitalize;
+}
+
+.footButton a{
+    color: #ffffff;
+    text-decoration: none;
+}
