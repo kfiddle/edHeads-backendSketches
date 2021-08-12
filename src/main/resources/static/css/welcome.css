@@ -24,7 +24,7 @@
     background: #fff;
     border: .5rem solid #cbd543;
     border-radius: 1.5rem;
-    margin: auto;
+    margin: 8rem auto auto;
     padding: 3rem;
     position: relative;
     width: 95%;
@@ -94,7 +94,7 @@
 
 #signUp{
     align-items: center;
-    background-image: url("/assets/signUpBackground.jpg");
+    background-image: url("/assets/welcomeBackground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -116,8 +116,9 @@
     background: #fff;
     border: .5rem solid #cbd543;
     border-radius: 1.5rem;
-    margin: auto;
-    padding: 3rem;
+    margin: 8rem auto auto;
+    padding: 3rem;;
+    position: relative;
     width: 95%;
 }
 
@@ -127,9 +128,9 @@
     border-right: 79px solid #cbd543;
     border-top: 52px solid transparent;
     content: "";
+    left: -7.75rem;
     position: absolute;
-    left: 14rem;
-    top: 11rem;
+    top: 2.125rem;
 }
 
 .textBoxRight:after {
@@ -138,9 +139,13 @@
     border-right: 79px solid #fff;
     border-top: 52px solid transparent;
     content: "";
-    left: 14.75rem;
-    top: 11rem;
+    left: -7rem;
     position: absolute;
+    top: 2.125rem;
+}
+
+.signUpCharacter{
+    padding: 2rem 0rem;
 }
 
 /*END SIGN UP SECTION*/
@@ -148,7 +153,7 @@
 /*BEGIN DONATE SECTION*/
 
 #donate{
-    background-image: url("/assets/donateBackground.jpg");
+    background-image: url("/assets/welcomeBackground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
