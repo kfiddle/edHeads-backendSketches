@@ -19,7 +19,7 @@
 
 .logo{
     bottom: 0;
-    left: 5vw;
+    left: 2vw;
     margin-bottom: .75rem;
     position: absolute;
 
@@ -29,27 +29,43 @@
     width: 275px;
 }
 
-
-
 .mainNav{
     bottom: 0;
     display: flex;
-    left: 27vw;
+    left: 23vw;
     list-style-type: none;
     position: absolute;
 }
 
+.mainNav:after {
+    display: block;
+    content: "";
+    /*width: 3px;*/
+    /*height: 5px;*/
+    background-image: url('/assets/weatherGirlWithBanner.png') no-repeat;
+}
+
 .mainNavItem{
     background-color: #cbd543;
-    margin: 0 1rem 0 1rem;
-    padding: 1rem 3rem 1rem 3rem;
+    padding: .75rem 1rem;
     border-top-left-radius: .75rem;
     border-top-right-radius: .75rem;
+    margin-left: .75rem;
 }
 
 .mainNavItem a{
     color: #ffffff;
     text-decoration: none;
+}
+
+.weatherGirl{
+    bottom: -15px;
+    position: absolute;
+    right: -1vw;
+}
+
+.weatherGirlImg{
+    width: 450px;
 }
 
 /*END HEADER STYLING*/
