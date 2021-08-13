@@ -1,3 +1,4 @@
+/*BEGIN HEADER STYLING*/
 #header {
     background-color: #2cccd3;
     background-image: url("/assets/headerClouds.png");
@@ -5,8 +6,55 @@
     background-size: cover;
     border-bottom: .5rem solid #cbd543;
     height: 200px;
+    position: relative;
     width: 100vw;
 }
+
+/*.headerContents {*/
+/*    bottom: 0;*/
+/*    display: flex;*/
+/*    position: absolute;*/
+/*    left: 25vw;*/
+/*}*/
+
+.logo{
+    bottom: 0;
+    left: 5vw;
+    margin-bottom: .75rem;
+    position: absolute;
+
+}
+
+.logoImg{
+    width: 275px;
+}
+
+
+
+.mainNav{
+    bottom: 0;
+    display: flex;
+    left: 27vw;
+    list-style-type: none;
+    position: absolute;
+}
+
+.mainNavItem{
+    background-color: #cbd543;
+    margin: 0 1rem 0 1rem;
+    padding: 1rem 3rem 1rem 3rem;
+    border-top-left-radius: .75rem;
+    border-top-right-radius: .75rem;
+}
+
+.mainNavItem a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*END HEADER STYLING*/
+
+/*BEGIN FOOTER STYLING*/
 
 #footer {
     background-color: #474747;
@@ -48,3 +96,5 @@
     color: #ffffff;
     text-decoration: none;
 }
+
+/*END FOOTER STYLING*/
