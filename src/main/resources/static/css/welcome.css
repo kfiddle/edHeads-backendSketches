@@ -38,6 +38,7 @@ h3{
 #aboutUs{
     align-items: center;
     background-image: url("/assets/welcomeBackground.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -131,7 +132,8 @@ h3{
 
 #signUp{
     align-items: center;
-    background-image: url("/assets/welcomeBackground.jpg");
+    background-image: url("/assets/signUpBackground.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -192,7 +194,8 @@ h3{
 /*BEGIN DONATE SECTION*/
 
 #donate{
-    background-image: url("/assets/welcomeBackground.jpg");
+    background-image: url("/assets/donateBackground.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;

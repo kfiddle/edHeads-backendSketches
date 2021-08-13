@@ -5,23 +5,22 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: .5rem solid #cbd543;
+    background-position: center;
     height: 200px;
     position: relative;
     width: 100vw;
+    display: flex;
+    justify-content: space-between;
 }
 
-/*.headerContents {*/
-/*    bottom: 0;*/
-/*    display: flex;*/
-/*    position: absolute;*/
-/*    left: 25vw;*/
-/*}*/
+.logoContainer{
+    align-items: flex-end;
+    display: flex;
+    transform: translateX(15%);
+}
 
 .logo{
-    bottom: 0;
-    left: 2vw;
     margin-bottom: .75rem;
-    position: absolute;
 
 }
 
@@ -29,21 +28,16 @@
     width: 275px;
 }
 
-.mainNav{
-    bottom: 0;
+.mainNavContainer{
     display: flex;
-    left: 23vw;
-    list-style-type: none;
-    position: absolute;
+    align-items: flex-end;
 }
 
-.mainNav:after {
-    display: block;
-    content: "";
-    /*width: 3px;*/
-    /*height: 5px;*/
-    background-image: url('/assets/weatherGirlWithBanner.png') no-repeat;
+.mainNav{
+    display: flex;
+    list-style-type: none;
 }
+
 
 .mainNavItem{
     background-color: #cbd543;
@@ -51,6 +45,7 @@
     border-top-left-radius: .75rem;
     border-top-right-radius: .75rem;
     margin-left: .75rem;
+    height: 50px;
 }
 
 .mainNavItem a{
@@ -58,10 +53,14 @@
     text-decoration: none;
 }
 
+.weatherGirlContainer{
+    align-items: flex-end;
+    display: flex;
+    transform: translate(-18%, 7%);
+}
+
 .weatherGirl{
-    bottom: -15px;
-    position: absolute;
-    right: -1vw;
+    /*transform: translate(-22%, 12%);*/
 }
 
 .weatherGirlImg{
