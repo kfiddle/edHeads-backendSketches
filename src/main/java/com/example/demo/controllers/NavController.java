@@ -19,4 +19,10 @@ public class NavController {
         return "welcome";
     }
 
+    @RequestMapping("/about-us")
+    public String displayAboutUsPage() {
+
+        return "aboutUs";
+    }
+
 }
