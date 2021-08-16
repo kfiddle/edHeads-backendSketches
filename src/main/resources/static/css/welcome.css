@@ -185,7 +185,9 @@ h3{
     top: 2.125rem;
 }
 
-.signUpCharacter{
+.signUpCharacter {
+    display: flex;
+    justify-content: flex-end;
     padding: 2rem 0rem;
 }
 
