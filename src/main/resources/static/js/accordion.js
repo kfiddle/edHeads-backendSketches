@@ -11,3 +11,5 @@ for (let i = 0; i < acc.length; i++) {
         }
     });
 }
+
+console.log("hey");
