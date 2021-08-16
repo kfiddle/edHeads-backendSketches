@@ -25,4 +25,10 @@ public class NavController {
         return "aboutUs";
     }
 
+    @RequestMapping("/faq")
+    public String displayFaqPage() {
+
+        return "faq";
+    }
+
 }
