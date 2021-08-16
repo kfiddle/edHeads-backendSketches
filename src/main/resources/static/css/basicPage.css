@@ -1,10 +1,10 @@
-#aboutUsContainer{
+#basicPageContainer{
     display: flex;
     width: 80%;
     margin: auto;
 }
 
-.aboutUsContentContainer{
+.basicPageContentContainer{
     /*background-color: #ccc;*/
     width: 80%;
     height: 80vh;
@@ -15,7 +15,7 @@
 
 }
 
-.aboutUsContent{
+.basicPageContent{
     line-height: 1.75rem;
     letter-spacing: .0125rem;
     overflow: scroll;
@@ -26,19 +26,19 @@
 
 }
 
-.aboutUsContent::-webkit-scrollbar {
+.basicPageContent::-webkit-scrollbar {
     width: .5rem;
 }
 
-.aboutUsContent::-webkit-scrollbar-track {
+.basicPageContent::-webkit-scrollbar-track {
     background: none;
 }
 
-.aboutUsContent::-webkit-scrollbar-thumb {
+.basicPageContent::-webkit-scrollbar-thumb {
     background: #cbd543;
 }
 
-.aboutUsContent::-webkit-scrollbar-thumb:hover {
+.basicPageContent::-webkit-scrollbar-thumb:hover {
     background: #cbd543;
 }
 
