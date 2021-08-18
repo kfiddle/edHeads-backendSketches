@@ -46,10 +46,11 @@
     height: 50px;
     margin-left: .75rem;
     padding: .75rem 1rem;
+    white-space: nowrap;
 }
 
 .mainNavItem a{
-    color: #ffffff;
+    color: #474747;
     text-decoration: none;
 }
 
@@ -57,10 +58,6 @@
     align-items: flex-end;
     display: flex;
     transform: translate(-18%, 7%);
-}
-
-.weatherGirl{
-    /*transform: translate(-22%, 12%);*/
 }
 
 .weatherGirlImg{
@@ -71,30 +68,34 @@
 
 /*BEGIN SECONDARY NAV STYLING*/
 
-.aboutUsNavContainer{
-    justify-content: center;
-    display: flex;
+.secondaryNavContainer{
+    /* justify-content: center; */
+    /* display: flex; */
     background-color: #cbd543;
+    width: 100vw;
 
 }
 
-.aboutUsNav{
+.secondaryNav{
     display: flex;
     list-style-type: none;
+    width: 80%;
+    margin: auto;
 }
 
 
-.aboutUsNavItem{
+.secondaryNavItem{
     padding: 1rem 2rem .75rem;
     font-size: 1rem;
+    white-space: nowrap;
 }
 
-.aboutUsNavItem a{
-    color: #ffffff;
+.secondaryNavItem a{
+    color: #474747;
     text-decoration: none;
 }
 
-.aboutUsNavItem a .active{
+.secondaryNavItem a .active{
     border-bottom: solid .125rem;
 }
 

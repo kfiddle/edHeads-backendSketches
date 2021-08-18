@@ -10,8 +10,31 @@
     margin: 3rem 3rem 3rem 0rem;
 }
 
-.accordion{
+.accordion {
     background-color: #cbd543;
+    cursor: pointer;
     padding: 1rem 2rem;
-    border-radius: 1rem;
+    transition: 0.4s;
+    margin-bottom: 1rem;
+}
+
+/*.active, .accordion:hover {*/
+/*    background-color: #ccc;*/
+/*}*/
+
+.accordionContent {
+    padding: 0rem 2rem 2rem;
+    display: none;
+    overflow: hidden;
+    font-size: 1rem;
+}
+
+.accordion:after {
+    content: '\02795';
+    font-size: 1rem;
+    float: right;
+}
+
+.active:after {
+    content: "\2796";
 }
