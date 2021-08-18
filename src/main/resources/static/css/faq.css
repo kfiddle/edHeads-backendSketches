@@ -12,6 +12,7 @@
 
 .accordion {
     background-color: #cbd543;
+    border-radius: 1rem;
     cursor: pointer;
     margin-bottom: 1rem;
     padding: 1rem 2rem;
