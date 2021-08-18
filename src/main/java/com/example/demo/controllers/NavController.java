@@ -19,6 +19,8 @@ public class NavController {
         return "welcome";
     }
 
+//    START ABOUT US SECTION MAPPING
+
     @RequestMapping("/about-us")
     public String displayAboutUsPage() {
 
@@ -31,4 +33,41 @@ public class NavController {
         return "faq";
     }
 
+    @RequestMapping("/awards")
+    public String displayAwardsPage() {
+
+        return "awards";
+    }
+
+    @RequestMapping("/privacy")
+    public String displayPrivacyPage() {
+
+        return "privacy";
+    }
+
+    @RequestMapping("/terms-of-use")
+    public String displayTermsOfUsePage() {
+
+        return "termsOfUse";
+    }
+
+    @RequestMapping("/activity-help")
+    public String displayActivityHelpPage() {
+
+        return "activityHelp";
+    }
+
+//    END ABOUT US SECTION MAPPING
+
+//    START OUR GAMES SECTION MAPPING
+
+    @RequestMapping("/our-games")
+    public String displayOurGamesHelpPage() {
+
+        return "allGamesView";
+    }
+
+//    END OUR GAMES SECTION MAPPING
+
 }
+
