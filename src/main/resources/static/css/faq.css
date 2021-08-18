@@ -1,0 +1,17 @@
+#faqContainer{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.faqContentContainer{
+    width: 80%;
+    height: 80vh;
+    margin: 3rem 3rem 3rem 0rem;
+}
+
+.accordion{
+    background-color: #cbd543;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
