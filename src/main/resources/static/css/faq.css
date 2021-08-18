@@ -1,21 +1,21 @@
 #faqContainer{
     display: flex;
-    width: 80%;
     margin: auto;
+    width: 80%;
 }
 
 .faqContentContainer{
-    width: 80%;
     height: 80vh;
     margin: 3rem 3rem 3rem 0rem;
+    width: 80%;
 }
 
 .accordion {
     background-color: #cbd543;
     cursor: pointer;
+    margin-bottom: 1rem;
     padding: 1rem 2rem;
     transition: 0.4s;
-    margin-bottom: 1rem;
 }
 
 /*.active, .accordion:hover {*/
@@ -23,16 +23,16 @@
 /*}*/
 
 .accordionContent {
-    padding: 0rem 2rem 2rem;
     display: none;
-    overflow: hidden;
     font-size: 1rem;
+    overflow: hidden;
+    padding: 0rem 2rem 2rem;
 }
 
 .accordion:after {
     content: '\02795';
-    font-size: 1rem;
     float: right;
+    font-size: 1rem;
 }
 
 .active:after {
