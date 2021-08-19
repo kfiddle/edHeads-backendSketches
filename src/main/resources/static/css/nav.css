@@ -60,14 +60,26 @@
 }
 
 .weatherGirlContainer{
-    align-items: flex-end;
+    /* align-items: flex-end; */
     display: flex;
-    transform: translate(-18%, 7%);
+    transform: translate(-17%, 10%);
+}
+
+.weatherGirl{
+    /*background-color: #ccc;*/
 }
 
 .weatherGirlImg{
     width: 450px;
 }
+
+.bannerText {
+    font-weight: 900;
+    margin: 1.25rem 0rem 0rem 16rem;
+    position: absolute;
+}
+
+
 
 /*END HEADER STYLING*/
 
