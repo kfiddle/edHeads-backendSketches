@@ -1,1 +1,37 @@
 
+.gamesPageContentContainer{
+    /* border: .5rem solid #cbd543; */
+    /* border-radius: 1.5rem; */
+    /* height: 80vh; */
+    margin: 3rem 3rem 3rem 0rem;
+    /* padding: 1rem; */
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 1rem;
+}
+
+.tileContent{
+    border: .25rem solid #cbd543;
+    border-radius: .75rem;
+}
+
+.gameImg{
+    width: 100%;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+.gameText{
+    padding: 0rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+h2{
+    color: #d1a10e;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: .5rem 0rem;
+}
