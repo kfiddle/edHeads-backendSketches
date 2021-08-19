@@ -63,10 +63,6 @@
     font-weight: 900;
 }
 
-.activeSubNav {
-    border-bottom: solid .125rem;
-}
-
 .weatherGirlContainer{
     /* align-items: flex-end; */
     display: flex;
@@ -119,7 +115,11 @@
 }
 
 .secondaryNavItem a:hover{
-font-weight: 900;
+    border-bottom: solid .125rem;
+}
+
+.activeSubNav {
+    border-bottom: solid .125rem;
 }
 
 .secondaryNavItem a:active{
