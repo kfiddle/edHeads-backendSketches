@@ -62,9 +62,15 @@ public class NavController {
 //    START OUR GAMES SECTION MAPPING
 
     @RequestMapping("/our-games")
-    public String displayOurGamesHelpPage() {
+    public String displayOurGamesPage() {
 
         return "allGamesView";
+    }
+
+    @RequestMapping("/single-game")
+    public String displaySingleGamePage() {
+
+        return "singleGameView";
     }
 
 //    END OUR GAMES SECTION MAPPING
