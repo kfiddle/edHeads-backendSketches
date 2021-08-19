@@ -67,10 +67,22 @@ public class NavController {
         return "allGamesView";
     }
 
-    @RequestMapping("/single-game")
-    public String displaySingleGamePage() {
+    @RequestMapping("/nano-start-up")
+    public String displayNanoStartUpGamePage() {
 
-        return "singleGameView";
+        return "nanoStartUp";
+    }
+
+    @RequestMapping("/manufacturing-technician")
+    public String displayManufacturingTechnicianGamePage() {
+
+        return "manufacturingTechnician";
+    }
+
+    @RequestMapping("/simple-machines")
+    public String displaySimpleMachinesGamePage() {
+
+        return "simpleMachines";
     }
 
 //    END OUR GAMES SECTION MAPPING
