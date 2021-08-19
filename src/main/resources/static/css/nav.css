@@ -59,8 +59,12 @@
     font-weight: 900;
 }
 
-.mainNavItem a:active {
-    background-color: yellow;
+.activeNav {
+    font-weight: 900;
+}
+
+.activeSubNav {
+    border-bottom: solid .125rem;
 }
 
 .weatherGirlContainer{
