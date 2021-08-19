@@ -55,6 +55,10 @@
     text-decoration: none;
 }
 
+.mainNavItem a:hover{
+    font-weight: 900;
+}
+
 .mainNavItem a:active {
     background-color: yellow;
 }
@@ -74,8 +78,7 @@
 }
 
 .bannerText {
-    font-weight: 900;
-    margin: 1.25rem 0rem 0rem 16rem;
+    margin: 1.25rem 0rem 0rem 16.5rem;
     position: absolute;
 }
 
@@ -111,7 +114,11 @@
     text-decoration: none;
 }
 
-.secondaryNavItem a .active{
+.secondaryNavItem a:hover{
+font-weight: 900;
+}
+
+.secondaryNavItem a:active{
     border-bottom: solid .125rem;
 }
 
